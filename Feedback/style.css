@@ -305,6 +305,40 @@ a {
     transition: 0.5s;
 }
 
+.comentarios {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentario{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comentarios h3 {
+    color: #0cd0f0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.comentarios p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
 .rodape {
     background-color: white;
     width: 100%;
